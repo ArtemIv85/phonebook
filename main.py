@@ -1,23 +1,12 @@
 import functions as func
 import os
-#Телефонный справочник
-# contact_data = {
-#     'first_name': None,
-#     'second_name': None,
-#     'phon_number': None,
-#     }
-
-
-
-
-
 
 
 def main():
     choice =1
     
     while choice!=0:
-        os.system('CLS') 
+        os.system('CLS')  # Отчистка Терминала
         print(
 '''Введите что выхотите сдлеать:
     1 - Найти
